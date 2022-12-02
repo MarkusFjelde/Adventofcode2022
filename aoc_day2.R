@@ -1,6 +1,6 @@
 christmas_packages <- c("dplyr","tidyr")
 lapply(christmas_packages, library, character.only=TRUE)
-#===========================Advent of code day 1===============================#
+#===========================Advent of code day 2===============================#
 #Part 1
 Strategy <- 
   read.table("~/Dropbox/Jobb/adventofcode/d2/inputd2.txt", 
