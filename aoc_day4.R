@@ -43,7 +43,7 @@ length(Rooms$whole[Rooms$whole == TRUE])
 
 #Part2
 #Make vectors with ranges and check (both ways)
-#if they elements are contained in each other
+#if elements are contained intersecting
 for (i in 1:1000){
   whole1 <- Rooms$start1[i]:Rooms$stop1[i]
   whole2 <- Rooms$start2[i]:Rooms$stop2[i]
