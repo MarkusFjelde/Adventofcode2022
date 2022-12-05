@@ -44,4 +44,4 @@ for (i in 1:9){
 
 paste(topStacks, collapse = "")
 #[1] "SHQWSRBDL"
-#[1] "DTQZHBRS"
+#[2] "CDTQZHBRS"
