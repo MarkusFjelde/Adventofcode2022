@@ -23,6 +23,7 @@ for (i in 1:9) {
 cratesdf <- as.data.frame(cratesvec)
 
 #Part1&2
+len <- length(steps$move)
 for (i in 1:len){
   move <- steps$move[i]
   from <- steps$from[i]
