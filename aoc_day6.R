@@ -33,6 +33,7 @@ for (i in 1:len){
 first <- which(toInt$startSignal == 4) 
 #Find the index of first occurrence
 first[1] + 3
+#[1] 1538
 
 #Part2
 #loop to create 14 letter strings
@@ -61,3 +62,4 @@ for (i in 1:len){
 first2 <- which(toIntMessage$startSignal == 14)
 #Find the index of first occurrence
 first2[1] + 13
+#[1] 2315
